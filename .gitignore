@@ -1,6 +1,11 @@
-node_modules
-.next
+# Node.js
 node_modules/
+.next/
 dist/
 .env
+
+# macOS
 .DS_Store
+
+# Logs
+*.log
