@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/brittanyshelley/lighthouse/Post%20Lighthouse/City/my-dashboard/my-dashboard/src/app/dashboard/loading.js"],"sourcesContent":["// app/dashboard/loading.js\nexport default function Loading() {\n  return <p>Loading dashboard...</p>;\n}\n"],"names":[],"mappings":"AAAA,2BAA2B;;;;;;AACZ,SAAS;IACtB,qBAAO,8OAAC;kBAAE;;;;;;AACZ"}},
-    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
