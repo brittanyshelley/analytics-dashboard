@@ -259,6 +259,16 @@ export const fetchMonitors = async () => {
   }
 };
 
+export const fetchMonitorGroup = async () => {
+  try {
+    const response = await apiClient.get('/MonitorGroup');
+    console.log('MonitorGroup fetched:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error fetching monitors:', error.message);
+    throw error;
+  }
+};
 // Fetch monitor group data by group ID
 export const fetchMonitorGroupData = async (groupId, params = {}) => {
   if (!groupId) {
