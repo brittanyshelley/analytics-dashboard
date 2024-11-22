@@ -116,3 +116,25 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+// 'use client';
+
+// import { useState } from 'react';
+// import OperatorList from './operators/OperatorList';
+// import MonitorList from './monitors/MonitorList';
+
+// const Dashboard = () => {
+//   const [view, setView] = useState('operators');
+
+//   return (
+//     <div>
+//       <h1>Dashboard</h1>
+//       <div>
+//         <button onClick={() => setView('operators')}>Operators</button>
+//         <button onClick={() => setView('monitors')}>Monitors</button>
+//       </div>
+//       {view === 'operators' ? <OperatorList /> : <MonitorList />}
+//     </div>
+//   );
+// };
+
+// export default Dashboard;
